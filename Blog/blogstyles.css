@@ -1,0 +1,245 @@
+/* default */
+body, html {
+	height: 100%;
+	margin:0 auto;
+    background-image: url("bg2.jpg");
+  	position: relative;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+li {
+    list-style: none;
+}
+
+#navbar {
+    background: rgba(50, 50, 50, 1);
+}
+
+
+/* Blogg-content */
+
+#blog .blogHeader {
+    font-family: Impact;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: rgba(50, 50, 50, 0.6);
+    position: relative;
+    top: 100px;
+    text-align: center;
+    padding: 50px;
+    margin: 0 40px 150px 40px;
+    font-size: 72px;
+    color: white;
+    text-shadow: 3px 3px black;
+    
+}
+@media (max-width: 850px) {
+    #blog .sidebar {
+        display: none;
+    }
+    #blog .blogPosts .post1 {
+        width: 99%;
+        padding: 5px;
+        margin: 5px 0px 10px 0px;
+        border-left: none;
+        border-right: none;
+    }
+
+}
+#blog .blogLayout {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 610px) {
+    #blog .blogHeader {
+    font-size: 50px;
+    padding: 30px;
+    }
+    #blog .blogPosts {
+        width: 100%;
+    }
+}
+@media (max-width: 610px) {
+    #blog .post1 {
+        padding: 10px;
+        font-size: 0.8em;
+        margin: 10px;
+    }
+}
+#blog .blogPosts {
+    flex: 1 1 auto;
+}
+
+	
+
+#blog .post1 {   
+    
+    
+    margin: 5px 20px 40px 40px;
+    padding: 20px;
+    border:1px solid black;
+    background: rgba(224, 224, 209, 0.7);
+    font-family: Verdana;
+}
+
+/* postBottom */
+
+#blog .postBottom {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: rgba(50, 50, 50, 0.3);
+}
+#blog .postBottom a {
+    color: black;
+    text-decoration: underline;
+}
+#blog .postBottom a:hover {
+    color: #b08c4f;
+}
+#blog .flexBottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#blog .socialMedia {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#blog .postBottom .socialMedia img {
+    width: 25px;
+}
+#blog .socialMedia a {
+    text-decoration: none;
+    display: inline;
+}
+#blog .facebook {
+    background-color: #3b5998;
+    width: 80px;
+    color: white;
+    font-family: Helvetica;
+    margin: 5px; 
+    position: relative;
+}
+#blog .comment, #blog .viewComments {
+    background-color: white;
+    width: 120px;
+    text-align: center;
+    color: black;
+    font-family: Helvetica;
+    margin: 5px; 
+    position: relative;
+    padding: 5px;
+}
+
+#blog .facebook div {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+#blog .twitter {
+    color: white;
+    font-family: Helvetica;
+    background-color: #00aced;
+    width: 90px;
+    margin: 5px;
+    position: relative;
+}
+#blog .twitter div {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+  transform: translate(-50%, -50%);
+}
+#blog .socialMedia a > div:hover {
+    opacity: 0.7;
+}
+
+
+
+
+/* postBottom end */
+
+/* SIDEBAR */
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 170px;
+    padding: 10px;
+    cursor: pointer;
+    }
+
+#blog .sidebar {
+    height: 1%;
+    flex: 0 0 200px; 
+    margin: 5px 40px 40px 20px;
+    padding: 5px;
+    border: 1px solid black;    
+    background: rgba(224, 224, 209, 0.5);
+    font-family: monospace;
+
+}
+#blog .year {
+    font-family: Arial;
+}
+
+#blog .sidebar a {
+    color: black;
+    display: block;
+}
+#blog .sidebar li a:hover {
+    animation: listHover 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes listHover{
+	to {
+		color:  #b08c4f;
+        background: rgba(50, 50, 50, 0.8);
+    }
+}
+
+/* SIDEBAR end */
+
+/* olderPosts */
+
+#blog .olderPosts {
+    font-family: Helvetica;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    float: right;
+    padding: 5px 10px 5px 10px;
+}
+
+#blog .olderPosts a {
+    color: black;
+    display: block;
+
+}
+
+#blog .olderPosts:hover {
+    opacity: 0.7;
+}
+
+/* olderPosts end */
+

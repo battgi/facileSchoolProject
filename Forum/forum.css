@@ -1,0 +1,200 @@
+#navbar {
+    background: rgba(50, 50, 50, 1);
+}
+
+body {
+     background-image: url(forums.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Bpic{
+    padding-top: 55px;
+    padding-bottom: 10px;
+    
+}
+       
+    
+}
+h2{
+    text-align: center;
+    background: rgba(50,50,50, 0.2);
+    padding: 10px;
+    
+    
+    
+}
+h3{
+    text-align: center;
+    background: rgba(50,50,50, 1);
+    
+  
+}
+
+.firstT{
+    background: rgba(50,50,50, 0.8);
+    
+}
+
+
+.firstT > p > a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+.firstT > p > a:hover {
+    text-decoration: none;
+    color: white;
+}
+.firstT > h3{
+   
+    text-align: center;
+    font-family:serif;
+    color: lightblue;
+    background: rgba(50,50,50, 1);}
+    
+.fourT{
+     background: rgba(50,50,50, 0.8);
+    
+
+}
+.fourT > h3{
+   
+    text-align: center;
+    font-family:serif;
+    color: lightgreen;
+    background: rgba(50,50,50, 1);
+}
+.fourT > p > a:hover{
+    text-decoration: none;
+    color: white;
+}
+.fourT > p > a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.thridT{
+    background: rgba(50,50,50, 0.8);
+}
+.thridT > h3{
+   
+    text-align: center;
+    font-family:serif;
+    color: lemonchiffon;
+    background: rgba(50,50,50, 1);
+}
+    
+.thridT > p > a:hover
+{
+    text-decoration: none;
+    color:white;
+}
+.thridT > p > a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+.secondT{
+    
+    background: rgba(50,50,50, 0.8);
+}
+
+.secondT > h3{
+   
+    text-align: center;
+    font-family:serif;
+    color: lemonchiffon;
+    background: rgba(50,50,50, 1);
+}
+.secondT > p > a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+.secondT > p > a{
+    text-decoration: none;
+    color: white;
+   
+}
+.SoozT{
+    background: rgba(50,50,50, 0.8);
+}
+.SoozT > h3{
+    text-align: center;
+    font-family:serif;
+    color: darkgoldenrod;
+    background: rgba(50,50,50, 1);
+}
+.SoozT > p > a{
+    text-decoration:none;
+    color:bisque;
+    
+}
+.SoozT > p> a:hover
+{
+     text-decoration: none;
+    color: white;
+}
+.DisT
+{
+    background: rgba(50,50,50, 0.8);
+}
+.DisT > h3
+{
+    text-align: center;
+    font-family:serif;
+     background: rgba(50,50,50, 1);
+}
+.DisT > p > a
+{
+    text-decoration: none;
+    color:bisque;
+}
+.fithT{
+    background: rgba(50,50,50, 0.8);
+}
+.fithT > h3
+{
+    text-align: center;
+    font-family:serif;
+     background: rgba(50,50,50,1);
+    color: skyblue;
+}
+.fithT > p > a
+{
+    text-decoration: none;
+    color: antiquewhite
+    
+}
+.SixT{
+    background: rgba(50,50,50, 0.8);
+}
+.SixT > h3
+{
+     text-align: center;
+    font-family:serif;
+     background: rgba(50,50,50,1);
+    color: forestgreen;
+}
+.SixT > p > a{
+    text-decoration: none;
+    color: bisque;
+}
+.SevenT{
+    background: rgba(50,50,50, 0.8);
+}
+.SevenT >h3{
+      text-align: center;
+    font-family:serif;
+     background: rgba(50,50,50,1);
+    color: burlywood;
+}
+.SevenT > p > a {
+    text-decoration: 0;
+    color: bisque;
+}
