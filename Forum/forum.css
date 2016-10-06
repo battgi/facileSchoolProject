@@ -1,5 +1,31 @@
-#navbar {
+header#navbar {
     background: rgba(50, 50, 50, 1);
+    font-size: 17px;
+}
+
+p {
+    margin: 0 0 0;
+}
+.container-fluid h3 a {
+    color: white;
+}
+
+#navbar h2{
+    margin-top: 0;
+     margin-bottom: 0;
+}
+#navbar .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0;
+}
+
+#navbar .nav>li>a:hover {
+    background: transparent;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    line-height: 1.1;
 }
 
 body {
@@ -11,12 +37,18 @@ body {
     background-size: cover;
 }
 
+.container-fluid {
+    min-height: 100%;
+}
+
+
+
+
+
 .Bpic{
     padding-top: 55px;
-    padding-bottom: 10px;
-    
-}
-       
+    padding-bottom: 10px;  
+} 
     
 }
 h2{
@@ -52,7 +84,7 @@ h3{
 .firstT > h3{
    
     text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
     color: lightblue;
     background: rgba(50,50,50, 1);}
     
@@ -64,7 +96,7 @@ h3{
 .fourT > h3{
    
     text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
     color: lightgreen;
     background: rgba(50,50,50, 1);
 }
@@ -83,7 +115,7 @@ h3{
 .thridT > h3{
    
     text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
     color: lemonchiffon;
     background: rgba(50,50,50, 1);
 }
@@ -107,7 +139,7 @@ h3{
 .secondT > h3{
    
     text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
     color: lemonchiffon;
     background: rgba(50,50,50, 1);
 }
@@ -126,7 +158,7 @@ h3{
 }
 .SoozT > h3{
     text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
     color: darkgoldenrod;
     background: rgba(50,50,50, 1);
 }
@@ -147,7 +179,7 @@ h3{
 .DisT > h3
 {
     text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
      background: rgba(50,50,50, 1);
 }
 .DisT > p > a
@@ -161,7 +193,7 @@ h3{
 .fithT > h3
 {
     text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
      background: rgba(50,50,50,1);
     color: skyblue;
 }
@@ -177,7 +209,7 @@ h3{
 .SixT > h3
 {
      text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
      background: rgba(50,50,50,1);
     color: forestgreen;
 }
@@ -190,7 +222,7 @@ h3{
 }
 .SevenT >h3{
       text-align: center;
-    font-family:serif;
+    font-family:"Righteous", cursive;
      background: rgba(50,50,50,1);
     color: burlywood;
 }
